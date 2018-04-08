@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragj97/todoList.git"
+  },
+  "author": "Chirag Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragj97/todoList/issues"
+  },
+  "homepage": "https://github.com/chiragj97/todoList#readme"
+}
