@@ -1,0 +1,98 @@
+body{
+	text-align: center;  
+    background-color: white;
+}
+
+#mainPage{
+    position: relative;
+    left: 620px;
+    text-align: left;
+}
+
+#task{
+	border-radius: 6px;
+    padding: 12px 20px;
+    width: 40%;
+    background: aliceblue;
+    font-size: 13px;
+    outline: none;
+    border: 0.5px solid lightgray;
+    box-shadow: 2px 2px 5px lightgrey;
+    color: navy;
+    font-weight: 730;
+}
+
+#yourTasks {
+    position: relative;
+    left: 620px;
+    width: 100%;
+}
+
+#addbtn{
+    border-radius: 15px;
+    font-size: 24px;
+    color: cornflowerblue;
+    position: relative;
+    right: 39px;
+    top: 3px;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+}
+
+#addbtn:hover{
+	transform: scale(1.4);
+	color: royalblue;
+	cursor: pointer;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+
+.del{
+	color: red;
+	font-weight: bold;
+    float: right;
+    background: transparent;
+    border:none;
+    outline: none;
+    transform: scale(2);
+    transition: 1s;
+    position: relative;
+}
+
+.del:hover {
+    transform: scale(3); 
+    cursor: pointer;
+}
+
+.todo{
+    text-align: left;
+    padding: 10px;
+    width: 28%;
+    outline: none;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    box-shadow: 2px 2px 5px lightgrey;
+    color: black;
+    font-size: 20px;
+}
+
+.chkbox{
+    position: relative;
+    float: left;
+    top: 2px;
+}
+
+#completedTasks{
+    display: none;
+}
+
+h2{
+    position: relative;
+    right: 600px;
+    top: -10px;
+}
+
+
